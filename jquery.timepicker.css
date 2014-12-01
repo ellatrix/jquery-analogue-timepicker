@@ -86,7 +86,8 @@ body.jquery-timepicker-touch .jquery-timepicker-minutes-hand:after {
 	bottom: 40px;
 }
 
-.jquery-timepicker-grabbing .jquery-timepicker-hand {
+body.jquery-timepicker-grabbing .jquery-timepicker-minutes-hand,
+body.jquery-timepicker-grabbing .jquery-timepicker-hours-hand {
 	cursor: -webkit-grabbing;
 	cursor: -moz-grabbing;
 	cursor: grabbing;
